@@ -1,16 +1,6 @@
-# MDGAN: Multiple Discriminator Generative Adversarial Network
+# Balancing Act: MDGAN for Imbalanced Tabular Data Synthesis
 
-MDGAN is a sophisticated generative adversarial network designed for generating synthetic tabular data to address class imbalance problems. It employs multiple generators and discriminators with specialized loss functions including mutual exclusion loss and contrastive loss.
-
-## Features
-
-- **Multiple Generators & Discriminators**: Uses multiple generator-discriminator pairs for improved diversity
-- **WGAN-GP Training**: Implements Wasserstein GAN with Gradient Penalty for stable training
-- **Mutual Exclusion Loss**: Encourages generators to produce diverse outputs
-- **Contrastive Loss**: Guides generated samples to be similar to minority class and different from majority class
-- **Cross-Validation Support**: Built-in support for 5-fold cross-validation
-- **Memory Optimization**: Includes memory management and garbage collection for large datasets
-- **Comprehensive Visualization**: t-SNE plots and loss curve monitoring
+Addressing the persistent challenge of learning from imbalanced datasets is crucial in advancing machine learning applications. Standard machine learning algorithms typically assume that the input data is balanced, and they often struggle to effectively learn the distribution of minority class data when dealing with imbalanced data. To address this, our study designed an improved Generative Adversarial Networks (GANs) model, named MDGAN, for tabular sample synthesis to augment samples and balance the data distribution. MDGAN employs a multi-generator and multi-discriminator structure to capture non-connected subspace manifolds, thereby better fitting the complete data distribution. To enhance the diversity among the multiple generators, an exclusive loss among generators was designed, ensuring that each generator produces data of different modalities. Additionally, a contrastive loss was introduced to ensure that the generated samples better fit the minority class distribution and are separated from the majority class distribution, preventing blurred classification boundaries. Qualitative and quantitative tests were conducted on 25 real datasets, and the experimental results indicate that MDGAN outperforms traditional classical models and current advanced oversampling models.
 
 ## Project Structure
 
