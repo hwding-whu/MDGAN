@@ -38,7 +38,7 @@ MDGAN/
 The expected data structure should be organized as follows:
 
 ```
-../data/
+./data/
 ├── dataset1/
 │   ├── 1cv/
 │   │   ├── minority.csv
