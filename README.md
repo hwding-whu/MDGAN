@@ -52,11 +52,6 @@ The expected data structure should be organized as follows:
 └── ...
 ```
 
-- **CSV files should contain numerical data only (no headers)**
-- **Each row represents a sample**
-- **Each column represents a feature**
-- **All features should be numerical**
-
 ## Configuration
 
 Key hyperparameters can be modified in `config.py`:
