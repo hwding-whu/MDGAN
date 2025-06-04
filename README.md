@@ -104,5 +104,3 @@ This will:
 2. **Adjust hyperparameters** in `config.py` based on your dataset characteristics
 
 3. **Modify model architectures** in `models.py` if needed
-
-### Advanced Usage
