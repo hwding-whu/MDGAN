@@ -87,7 +87,7 @@ python main.py
 ```
 
 This will:
-1. Automatically detect all valid datasets in the `../data/` directory
+1. Automatically detect all valid datasets in the `./data/` directory
 2. Process each dataset with 5-fold cross-validation
 3. Train MDGAN models for each fold
 4. Generate synthetic samples and visualizations
