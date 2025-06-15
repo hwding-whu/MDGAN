@@ -100,7 +100,6 @@ This will:
    DATA_ROOT_DIR = '/path/to/your/data'
    OUTPUT_ROOT_DIR = '/path/to/output'
    ```
-
 2. **Adjust hyperparameters** in `config.py` based on your dataset characteristics
 
 3. **Modify model architectures** in `models.py` if needed
